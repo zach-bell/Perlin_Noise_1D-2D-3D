@@ -1,0 +1,52 @@
+package com.game.launcher.screens;
+
+import java.awt.BasicStroke;
+import java.awt.Color;
+import java.awt.Graphics2D;
+
+import com.noise.OpenSimplexNoise;
+
+public class MenuScreen extends Screen{
+	
+	private ScreenManager screenManager;
+	private OpenSimplexNoise noise = new OpenSimplexNoise();
+	
+	private int[][] colorGrid;
+	
+	public void create(ScreenManager screenManager) {
+		this.screenManager = screenManager;
+		colorGrid = new int[screenManager.game().getWidth()][screenManager.game().getHeight()];
+	}
+	
+	private float constant = 0;
+	
+	public void update() {
+		float yoff=0;
+		for(int y=0; y < screenManager.game().getHeight(); y++){
+			float xoff=0;
+			for(int x=0; x < screenManager.game().getWidth(); x++){
+				colorGrid[x][y] = Math.abs((int) (noise.eval(xoff, yoff, constant) * 255));
+				xoff += 0.01;
+			}
+			yoff += 0.01;
+		}
+		constant += 0.1;
+	}
+	
+	private Color change = new Color(0,0,0);
+	
+	public void draw(Graphics2D g) {
+		g.setColor(Color.black);
+		g.setStroke(new BasicStroke(0.5f));
+		g.fillRect(0, 0, screenManager.game().getWidth(), screenManager.game().getHeight());	// Sets background
+		
+		for(int y=0; y < screenManager.game().getHeight(); y++){
+			for(int x=0; x < screenManager.game().getWidth(); x++){
+				change = new Color(colorGrid[x][y],colorGrid[x][y],colorGrid[x][y]);
+				g.setColor(change);
+				g.fillRect(x, y, 1, 1);
+			}
+		}
+		/**/
+	}
+}

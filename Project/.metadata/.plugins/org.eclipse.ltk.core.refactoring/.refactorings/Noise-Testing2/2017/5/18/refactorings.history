@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.noise&apos; to &apos;Noise-Testing3-core/src/com.engine&apos;&#x0D;&#x0A;- Original project: &apos;Noise-Testing2&apos;&#x0D;&#x0A;- Destination element: &apos;Noise-Testing3-core/src/com.engine&apos;&#x0D;&#x0A;- Original element: &apos;Noise-Testing2/src/com.noise&apos;" description="Copy package" destination="=Noise-Testing3-core/src&lt;com.engine" element1="/src&lt;com.noise" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1493704454082" version="1.0"/>
+</session>

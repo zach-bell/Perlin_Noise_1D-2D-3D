@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;OpenSimplexNoise.java&apos; to &apos;Noise-Testing2/src/tools&apos;&#x0D;&#x0A;- Original project: &apos;Noise-Testing&apos;&#x0D;&#x0A;- Destination element: &apos;Noise-Testing2/src/tools&apos;&#x0D;&#x0A;- Original element: &apos;com.noise.OpenSimplexNoise.java&apos;" description="Copy compilation unit" destination="=Noise-Testing2/src&lt;tools" element1="/src&lt;com.noise{OpenSimplexNoise.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1488905461688" units="1" version="1.0"/>
+</session>

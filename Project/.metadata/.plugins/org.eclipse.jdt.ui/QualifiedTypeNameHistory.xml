@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.Stroke"/>
+<fullyQualifiedTypeName name="javax.imageio.ImageIO"/>
+<fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
+<fullyQualifiedTypeName name="com.game.launcher.screens.MenuScreen"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="org.lwjgl.opengl.GL"/>
+<fullyQualifiedTypeName name="com.jogamp.opengl.GL2"/>
+<fullyQualifiedTypeName name="javax.sound.sampled.Line"/>
+<fullyQualifiedTypeName name="org.lwjgl.opengl.GL11"/>
+<fullyQualifiedTypeName name="com.jogamp.opengl.GLEventListener"/>
+<fullyQualifiedTypeName name="com.jogamp.opengl.GLAutoDrawable"/>
+<fullyQualifiedTypeName name="com.jogamp.opengl.GLProfile"/>
+<fullyQualifiedTypeName name="com.jogamp.opengl.GLCapabilities"/>
+<fullyQualifiedTypeName name="com.jogamp.opengl.awt.GLCanvas"/>
+<fullyQualifiedTypeName name="com.engine.Main"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g3d.Environment"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g3d.attributes.ColorAttribute"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.VertexAttributes"/>
+<fullyQualifiedTypeName name="com.engine.MainCore"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.Input"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g3d.utils.ModelBuilder"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.VertexAttributes.Usage"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.Color"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g3d.Material"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.PerspectiveCamera"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.utils.Array"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g3d.particles.influencers.ColorInfluencer.Random"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="com.engine.JavaProcess"/>
+<fullyQualifiedTypeName name="javax.swing.event.ChangeListener"/>
+<fullyQualifiedTypeName name="javax.swing.BoxLayout"/>
+<fullyQualifiedTypeName name="javax.swing.JSlider"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.ui.Window"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.Input.Keys"/>
+</qualifiedTypeNameHistroy>
